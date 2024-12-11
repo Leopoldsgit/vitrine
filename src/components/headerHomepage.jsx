@@ -10,6 +10,7 @@ const HeaderHomepage = () => {
                     <li>Services</li>
                     <li>Projets</li>
                     <li>A propos</li>
+                    <li>Contact</li>
                 </ul>
             </nav>
         </header>
