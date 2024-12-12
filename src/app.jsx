@@ -29,8 +29,6 @@ export function App() {
       <HeaderHomepage page={page} updatePage={setPage}/>
       {page === "projets" ? <Projects /> : page === "services" ? <Services /> : page === "contact"? <Contact /> : page === "apropos"? <About /> : <Home />}
       
-      <button type="button" class="fixedButton">Contact</button>
-      
       <FooterHomepage />
     </>
   )

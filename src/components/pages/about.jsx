@@ -1,8 +1,11 @@
 const About = () => {
     return (
-        <main>
-            <h1>About</h1>
-        </main>
+        <>
+            <button type="button" class="fixedButton"><a href='contact'>Contact</a></button>
+            <main className="main">
+                <h1>About</h1>
+            </main>
+        </>
     )
 }
 

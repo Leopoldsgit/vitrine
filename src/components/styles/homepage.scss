@@ -68,16 +68,6 @@
 }
 
 
-.fixedButton {
-    position: fixed;
-    width: fit-content;
-    top: 50%;
-    right: 0px;
-    border-radius: 7px 0 0 7px;
-    z-index: 1;
-}
-
-
 
 .formulaire {
     width: 100vw;
@@ -98,8 +88,6 @@
         display: grid;
 
         padding: 10px;
-
-        .formulaire-titre {}
 
         .form {
             display: grid;

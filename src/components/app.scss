@@ -13,6 +13,17 @@ header {
   align-items: flex-end;
   flex-wrap: nowrap;
 
+  .logo {
+    justify-self: flex-start;
+    height: 60px;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
   ul {
     list-style: none;
     display: flex;
@@ -21,6 +32,16 @@ header {
     gap: 20px;
     align-items: flex-end;
   }
+}
+
+.fixedButton {
+  position: fixed;
+  width: fit-content;
+  top: 50%;
+  right: 0px;
+  border-radius: 7px 0 0 7px;
+  z-index: 1;
+
 }
 
 footer {
@@ -32,17 +53,6 @@ footer {
 }
 
 
-@media (prefers-color-scheme: light) {
-  :root {
+@media (prefers-color-scheme: dark) {}
 
-    background-color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
-}
+@media (prefers-color-scheme: light) {}

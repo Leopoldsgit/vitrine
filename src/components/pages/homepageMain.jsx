@@ -1,6 +1,6 @@
 const MainHomepage = () => {
     return (
-        <main>
+        <main className="main">
             <section>
                 <h1>Bruno Heugas</h1>
                 <h2>Maçonnerie</h2>

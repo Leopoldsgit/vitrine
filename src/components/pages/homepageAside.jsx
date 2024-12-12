@@ -9,31 +9,26 @@ const AsideHomepage = () => {
     const [emailInput, setEmailInput] = useState("");
     const [numeroInput, setNumeroInput] = useState("");
     const [messageInput, setMessageInput] = useState("");
-    const arrayInfos = { firstname: prenomInput, lastname: nomInput, email: emailInput, number: numeroInput, message: messageInput };
+    const objectInfos = { firstname: prenomInput, lastname: nomInput, email: emailInput, number: numeroInput, message: messageInput };
 
     const handlePrenom = (event) => {
         setPrenomInput(event.target.value);
-        console.log(prenomInput);
     };
     const handleNom = (event) => {
         setNomInput(event.target.value);
-        console.log(nomInput);
     };
     const handleEmail = (event) => {
         setEmailInput(event.target.value);
-        console.log(emailInput);
     };
     const handleNumero = (event) => {
         setNumeroInput(event.target.value);
-        console.log(numeroInput);
     };
     const handleMessage = (event) => {
         setMessageInput(event.target.value);
-        console.log(messageInput);
-    };
+    }
 
     const handleSend = () => {
-        console.log(arrayInfos);
+        console.log(objectInfos);
     }
 
 
