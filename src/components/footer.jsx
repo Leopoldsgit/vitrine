@@ -1,8 +1,8 @@
 const FooterHomepage = () => {
     return (
-<footer>
-<address>dax</address>
-</footer>
+        <footer>
+            <address>dax</address>
+        </footer>
     );
 };
 

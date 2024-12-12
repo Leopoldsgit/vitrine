@@ -9,7 +9,6 @@ const MainHomepage = () => {
                     magni ut fuga quam unde quidem eaque ducimus quas deleniti cumque beatae corporis tempore temporibus?</p>
                 <button type="button" id="devis-buton">Devis Gratuit<img src="" /></button>
             </section>
-            <button type="button" class="fixedButton">Contact</button>
             <section class="carousel">
                 <img src="./src/assets/travaux.jpg" class="carroussel" alt="image de travaux" />
                 <img src="./src/assets/piscine.jpg" class="default" alt="image d'une piscine" />
